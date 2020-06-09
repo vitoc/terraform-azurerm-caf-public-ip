@@ -21,7 +21,7 @@ jobs:
   deploy-to-azure:
     runs-on: ubuntu-latest
     container:
-      image: 'aztfmod/rover:2001.2205'
+      image: 'aztfmod/rover:2005.1510'
       options: --user 0
     steps:
     - uses: actions/checkout@v2
