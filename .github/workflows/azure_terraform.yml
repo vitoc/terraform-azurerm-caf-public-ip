@@ -34,9 +34,3 @@ jobs:
         terraform init
         terraform validate -no-color
       shell: bash
-    - name: Terraform destroy
-      run: |
-        cd examples/pip_single
-        terraform destroy -no-color -auto-approve
-      shell: bash
-      if: always()
